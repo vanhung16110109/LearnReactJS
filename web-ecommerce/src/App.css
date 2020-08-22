@@ -1,0 +1,35 @@
+:root {
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ff8c00; 
+}
+
+.body{
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;  
+  color: var(--mainDark) !important;
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+  height: 100vh; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #000; 
+  font-family: sans-serif; 
+}
+
+.text-title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: var(--mainBlue);
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
